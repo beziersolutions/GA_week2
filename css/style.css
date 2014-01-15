@@ -4,7 +4,9 @@ body {
     width: 1000px;
 
     margin: 0 auto;
+
     border-right: 1px solid #99CC33;
+
     padding: 0px;
 
     background: white;
@@ -23,6 +25,8 @@ article {
 
 }
 
+
+
 hr {
 
     color: gray;
@@ -30,26 +34,50 @@ hr {
 }
 
 a {
+
     color: red;
+
     text-decoration: none;
+
 }
 
-h1 {
+a .header-red {
 
-    font-style: 'light';
-    font-size: '100pt';
-    /*default font order*/
+    font-weight: 400;
+
+    font-size: 150%;
 
     text-align: left;
+
+    color: red;
+
+    margin-bottom: 5px;
+
+    padding-right: 30px;
+
 }
 
-h2 {
+a .header-black {
 
-    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+
+    font-weight: 300;
+
+    text-align: left;
+
+    color: gray;
+
+    margin-bottom: 5px;
+
+}
+
+article > h2 {
 
     text-transform: capitalize;
 
     text-align: left;
+
+    color: black;
 
 }
 
@@ -57,8 +85,8 @@ h3 {
 
     text-transform: capitalize;
 
-
-font-style: 'bold';
+    font-weight: 400;
+    font-size: 200%;
     color: gray;
 
     text-align: left;
@@ -71,48 +99,78 @@ img {
 
     width: 700px;
 
+    margin-top: 10px;
+
     margin-bottom: 10px;
 
 }
 
 .main-content {
+
     border-top: 1px solid #99CC33;
+
     border-left: 1px solid #99CC33;
+
     border-right: 1px solid #99CC33;
+
     float: left;
+
     width: 700px;
 
 }
 
 .sidebar {
+
     border-top: 1px solid #99CC33;
+
     border-left: 1px solid #99CC33;
+
     border-right: 1px solid #99CC33;
+
     height: 1000px;
+
     width: 215px;
+
     float: right;
+
     margin-top: 70px;
+
     margin-right: 5px;
+
     padding: 5px 0 0 5px;
+
     color: gray;
+
     line-height: 1.5em;
+
 }
 
-.links{
-    color:red;
+article h4 {
+
+    color: red;
+
     text-align: right;
+
     font-style: bold;
 
 }
 
-.advertisement{
+.advertisement {
+
     margin-top: 100px;
+
     border-top: 1px solid #99CC33;
+
     border-left: 1px solid #99CC33;
+
     border-right: 1px solid #99CC33;
+
     border-bottom: 1px solid #99CC33;
+
     width: 50px;
+
     height: 50px;
+
 }
 
 p > strong {
@@ -150,19 +208,39 @@ p:first-letter {
 
 }
 
-ul {
+.sidebar ul {
 
-    font-family: 'Lato';
+    font-size: small;
+
     text-align: left;
-    line-height: 1.4;
-    padding-left: 5px;
 
 }
 
-li {
+.sidebar li {
+
+    list-style: none;
+
     color: red;
-    padding-left: 1px;
-    padding-right: 1px;
+
+    padding-left: -4px;
+
+    margin-right: 2px;
+
+}
+
+.sidebar li:before {
+
+    color: gray;
+
+    /* /2022 is the numerical unicode for &bull; */
+
+    content: "\2022";
+
+    font-size: 1em;
+
+    padding-left: -4px;
+
+    padding-right: .25em;
 
 }
 
