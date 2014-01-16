@@ -25,8 +25,6 @@ article {
 
 }
 
-
-
 hr {
 
     color: gray;
@@ -86,7 +84,9 @@ h3 {
     text-transform: capitalize;
 
     font-weight: 400;
+
     font-size: 200%;
+
     color: gray;
 
     text-align: left;
@@ -127,7 +127,7 @@ img {
 
     border-right: 1px solid #99CC33;
 
-    height: 1000px;
+    height: auto;
 
     width: 215px;
 
@@ -155,21 +155,31 @@ article h4 {
 
 }
 
-.advertisement {
+.sidebar > .advertisement {
 
-    margin-top: 100px;
+    border-top: 1px solid black;
 
-    border-top: 1px solid #99CC33;
+    border-left: 1px solid black;
 
-    border-left: 1px solid #99CC33;
+    border-right: 1px solid black;
 
-    border-right: 1px solid #99CC33;
+    border-bottom: 1px solid black;
 
-    border-bottom: 1px solid #99CC33;
+    width: 80%;
 
-    width: 50px;
+    padding: 100px 10px 10px 10px;
 
-    height: 50px;
+    background: gray;
+
+    height: 150px;
+
+    text-align: center;
+
+    font-family: Times serif;
+
+    font-size: 500%;
+
+    color: black;
 
 }
 
@@ -204,7 +214,7 @@ p:first-letter {
 
     text-align: top;
 
-    margin: -20px 10px 0px 0;
+    margin: -25px 10px 0px 0;
 
 }
 
@@ -271,5 +281,39 @@ nav a {
     padding-left: 30px;
 
     padding-right: 30px;
+
+}
+
+footer {
+
+    margin-top: 5%;
+
+    text-align: left;
+
+    color: gray;
+
+}
+
+footer > nav a {
+
+    background: white;
+
+    text-align: left;
+
+    color: red;
+
+    padding-top: 0px;
+
+    margin-bottom: 10px;
+
+    padding-right: 5px;
+
+    padding-left: 5px;
+
+    font-size: 75%;
+
+    font-weight: 300;
+
+    font-style: bold;
 
 }
