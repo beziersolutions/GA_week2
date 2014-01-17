@@ -5,8 +5,6 @@ body {
 
     margin: 0 auto;
 
-    border-right: 1px solid #99CC33;
-
     padding: 0px;
 
     background: white;
@@ -37,6 +35,11 @@ a {
 
     text-decoration: none;
 
+}
+
+a:hover{
+
+    color: gray;
 }
 
 a .header-red {
@@ -107,12 +110,6 @@ img {
 
 .main-content {
 
-    border-top: 1px solid #99CC33;
-
-    border-left: 1px solid #99CC33;
-
-    border-right: 1px solid #99CC33;
-
     float: left;
 
     width: 700px;
@@ -120,12 +117,6 @@ img {
 }
 
 .sidebar {
-
-    border-top: 1px solid #99CC33;
-
-    border-left: 1px solid #99CC33;
-
-    border-right: 1px solid #99CC33;
 
     height: auto;
 
@@ -145,6 +136,14 @@ img {
 
 }
 
+.sidebar > h4{
+
+    margin-top: 10px;
+    
+    text-align: right;
+
+}
+a 
 article h4 {
 
     color: red;
@@ -156,14 +155,6 @@ article h4 {
 }
 
 .sidebar > .advertisement {
-
-    border-top: 1px solid black;
-
-    border-left: 1px solid black;
-
-    border-right: 1px solid black;
-
-    border-bottom: 1px solid black;
 
     width: 80%;
 
@@ -195,15 +186,6 @@ p > strong {
 
 }
 
-/*
-.first-letter {
-    font-size:3em;
-    float:left;
-    margin 10px 10px 0px 0;
-color:#ccc;
-}
-*/
-
 p:first-letter {
 
     color: gray;
@@ -220,6 +202,8 @@ p:first-letter {
 
 .sidebar ul {
 
+    margin-top: 25%;
+    
     font-size: small;
 
     text-align: left;
@@ -241,8 +225,6 @@ p:first-letter {
 .sidebar li:before {
 
     color: gray;
-
-    /* /2022 is the numerical unicode for &bull; */
 
     content: "\2022";
 
@@ -292,6 +274,8 @@ footer {
 
     color: gray;
 
+    margin-bottom: 5%;
+
 }
 
 footer > nav a {
@@ -317,3 +301,4 @@ footer > nav a {
     font-style: bold;
 
 }
+
